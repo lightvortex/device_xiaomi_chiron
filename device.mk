@@ -35,5 +35,11 @@ PRODUCT_COPY_FILES += \
 # Properties
 include $(LOCAL_PATH)/vendor_prop.mk
 
+# Inherit prebuilt GApps
+# TODO: remove me
+IS_PHONE := true
+TARGET_GAPPS_ARCH := arm64
+include vendor/gapps/config.mk
+
 # Call the proprietary setup
 $(call inherit-product, vendor/xiaomi/chiron/chiron-vendor.mk)
