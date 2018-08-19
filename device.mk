@@ -41,5 +41,8 @@ IS_PHONE := true
 TARGET_GAPPS_ARCH := arm64
 include vendor/gapps/config.mk
 
+# MiuiCamera
+include vendor/MiuiCamera/config.mk
+
 # Call the proprietary setup
 $(call inherit-product, vendor/xiaomi/chiron/chiron-vendor.mk)
