@@ -86,12 +86,4 @@
 
     <!-- Whether or not swipe up gesture's opt-in setting is available on this device -->
     <bool name="config_swipe_up_gesture_setting_available">true</bool>
-
-    <!-- Time to give to the proximity sensor before toggling the flashlight with the Power button.
-    Set to -1 to disable the proximity sensor check at all-->
-    <integer name="config_flashlightProximityTimeout">-1</integer>
-
-    <!-- Whether device has screen with higher aspect ratio -->
-    <bool name="config_haveHigherAspectRatioScreen">true</bool>
-
 </resources>
