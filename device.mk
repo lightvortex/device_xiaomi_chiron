@@ -35,12 +35,6 @@ PRODUCT_COPY_FILES += \
 # Properties
 include $(LOCAL_PATH)/vendor_prop.mk
 
-# Inherit prebuilt GApps
-# TODO: remove me
-IS_PHONE := true
-TARGET_GAPPS_ARCH := arm64
-include vendor/gapps/config.mk
-
 # MiuiCamera
 include vendor/MiuiCamera/config.mk
 
