@@ -39,7 +39,7 @@ PRODUCT_COPY_FILES += \
 include $(LOCAL_PATH)/vendor_prop.mk
 
 # MiuiCamera
-include vendor/MiuiCamera/config.mk
+include vendor/goodies/config.mk
 
 # Call the proprietary setup
 $(call inherit-product, vendor/xiaomi/chiron/chiron-vendor.mk)
