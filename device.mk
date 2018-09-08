@@ -35,11 +35,12 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/keylayout/uinput-fpc.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/uinput-fpc.kl \
     $(LOCAL_PATH)/configs/keylayout/uinput-goodix.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/uinput-goodix.kl
 
+# Camera MIUI
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/chiron.xml:system/etc/device_features/chiron.xml
+
 # Properties
 include $(LOCAL_PATH)/vendor_prop.mk
-
-# Goodies
-$(call inherit-product, vendor/goodies/config.mk)
 
 # Call the proprietary setup
 $(call inherit-product, vendor/xiaomi/chiron/chiron-vendor.mk)
