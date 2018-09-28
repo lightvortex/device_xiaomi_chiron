@@ -43,6 +43,13 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/camera/etc/chiron.xml:system/etc/device_features/chiron.xml \
     $(LOCAL_PATH)/camera/etc/miuicamera-permissions.xml:system/etc/default-permissions/miuicamera-permissions.xml
 
+# Launcher
+PRODUCT_PACKAGES += \
+    NexusLauncher
+
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/launcher/etc/launcher-hiddenapi-package-whitelist.xml:system/etc/sysconfig/launcher-hiddenapi-package-whitelist.xml
+
 # Properties
 include $(LOCAL_PATH)/vendor_prop.mk
 
