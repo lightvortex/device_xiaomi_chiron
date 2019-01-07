@@ -49,10 +49,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/camera/etc/chiron.xml:system/etc/device_features/chiron.xml \
     $(LOCAL_PATH)/camera/etc/miuicamera-permissions.xml:system/etc/default-permissions/miuicamera-permissions.xml
 
-# Thermal
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/thermal/thermal-engine.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine.conf
-
 # Properties
 include $(LOCAL_PATH)/vendor_prop.mk
 
