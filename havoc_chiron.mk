@@ -18,3 +18,10 @@ BUILD_FINGERPRINT := Xiaomi/chiron/chiron:8.0.0/OPR1.170623.027/V9.5.4.0.ODEMIFA
 TARGET_SCREEN_WIDTH := 1080
 
 
+# Official HavocOS
+HAVOC_BUILD_TYPE := Final
+
+# Maintainer Prop
+PRODUCT_PROPERTIES_OVERRIDES += \
+    ro.havoc.maintainer="LightVortex"
+
