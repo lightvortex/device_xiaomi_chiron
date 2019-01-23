@@ -20,8 +20,3 @@ TARGET_SCREEN_WIDTH := 1080
 
 # Official HavocOS
 HAVOC_BUILD_TYPE := Official
-
-# Maintainer Prop
-PRODUCT_PROPERTIES_OVERRIDES += \
-    ro.havoc.maintainer="LightVortex"
-
