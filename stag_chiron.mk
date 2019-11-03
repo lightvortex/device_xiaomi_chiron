@@ -22,9 +22,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/xiaomi/chiron/device.mk)
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/havoc/config/common_full_phone.mk)
+$(call inherit-product, vendor/stag/config/common_full_phone.mk)
+$(call inherit-product, vendor/stag/config/main.mk)
 
-PRODUCT_NAME := havoc_chiron
+PRODUCT_NAME := stag_chiron
 PRODUCT_DEVICE := chiron
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Mi MIX 2
