@@ -6,3 +6,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Display
 PRODUCT_PROPERTY_OVERRIDES += \
     vendor.display.disable_avr=1
+
+# Havoc
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.havoc.maintainer=LightVortex 

@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_chiron.mk
+    $(LOCAL_DIR)/havoc_chiron.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_chiron-user \
-    aosp_chiron-userdebug \
-    aosp_chiron-eng
+    havoc_chiron-user \
+    havoc_chiron-userdebug \
+    havoc_chiron-eng
