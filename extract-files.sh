@@ -33,6 +33,9 @@ function blob_fixup() {
     vendor/lib64/vendor.goodix.hardware.fingerprintextension@1.0.so)
         patchelf --remove-needed "android.hidl.base@1.0.so" "${2}"
         ;;
+    vendor/lib64/sensors.ssc.so)
+        patchelf --add-needed "libbinder.so" "${2}"
+        ;;
     esac
 }
 

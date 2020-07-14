@@ -148,7 +148,9 @@ vendor/etc/sensors/hals.conf
 vendor/etc/sensors/sensor_def_qcomdev.conf
 lib64/libnotifyaudiohal.so:vendor/lib64/libnotifyaudiohal.so
 lib64/libultrasound.so:vendor/lib64/libultrasound.so
+vendor/lib/sensors.ssc.so
 vendor/lib64/sensors.elliptic.so
+vendor/lib64/sensors.ssc.so
 
 # Thermal
 vendor/etc/thermal-engine-8998.conf
